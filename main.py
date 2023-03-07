@@ -1,14 +1,10 @@
-choice = input("operation + - * / : ")
-no1 = float(input("first number: "))
-no2 = float(input("second number: "))
+import Calc
+import Ankieta
 
-if choice == '+':
-    print(no1 + no2)
-elif choice == '-':
-    print(no1 - no2)
-elif choice == '*':
-    print(no1 * no2)
-elif choice == '/':
-    print(no1 / no2)
+choice = input("1 -> calc   2 -> ankieta:  ")
+if choice == "1":
+    Calc.calc()
+elif choice == "2":
+    Ankieta.ankieta()
 else:
-    print(" :( ")
+    print (" :( zly wybor")
