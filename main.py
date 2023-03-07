@@ -1,4 +1,4 @@
-#s24435
+#Maciej Łatosz s24435 12c
 import Calc
 import Ankieta
 
